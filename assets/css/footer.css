@@ -1,0 +1,276 @@
+.footer{
+    background-color: #292A2D;
+    padding: 50px 100px;
+    position: relative;
+    border-bottom: 1px solid rgba(255, 255, 255, .08);
+}
+.footer .fotter-logo img{
+    width: 120px;
+}
+.footer .fotter-logo{
+    padding-bottom: 15px;
+}
+.footer .fotter-text p{
+    color:#fff;
+    font-size: 16px;
+    line-height: 30px;
+    width: 90%;
+}
+.footer .fotter-link ul li{
+    margin-bottom: 10px;
+}
+.footer .fotter-link ul li:last-child{
+    margin-bottom: 0px;
+}
+.footer .fotter-link ul li a{
+    color:#FFFFFF;
+    font-size: 16px;
+    line-height: 26px;
+}
+.footer .fotter-link ul li a:hover{
+    color:#4FA743;
+}
+.footer .fotter-contact ul li{
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.footer .fotter-contact ul li.address label{
+   font-weight: 600;
+   width: 80%;
+   display: inline-block;
+   vertical-align: middle;
+}
+.footer .fotter-contact ul li.address p{
+    width: 65%;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 25px;
+    color: #fff;
+    margin-left: 35px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+ }
+.footer .fotter-contact ul li.address a{
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 27px;
+    padding-bottom: 0px;
+    border-bottom: 2px solid #4FA743;
+    margin-left: 35px;
+    display: inline-block;
+    color: #fff;
+}
+.footer .fotter-contact.no-link ul li,
+.footer .fotter-contact.no-link ul li label {
+    cursor: default;
+}
+.footer .fotter-contact ul li:hover span img{
+    transition-timing-function: ease-in;
+    transition: .5s;
+}
+.footer .fotter-contact ul li:hover span img{
+    transform: scale(1.1);
+}
+.footer .fotter-contact ul li label{
+    color:#FFFFFF;
+    font-size: 16px;
+    line-height: 26px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.footer .fotter-form h2{
+    font-size: 18px;
+    color:#fff;
+    line-height: 30px;
+    padding-bottom: 5px;
+    font-weight: 600;
+}
+.fotter-form input::placeholder{
+    color:#fff;
+    opacity: .5;
+}
+.footer .fotter-form label{
+    font-size: 14px;
+    color:#fff;
+    line-height: 24px;
+    padding-bottom: 10px;
+}
+.footer .fotter-form input{
+    font-size: 14px;
+    color: #fff;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    padding: 5px 0px;
+    width: 220px;
+}
+.footer .fotter-form input:focus{
+    outline: none !important;
+}
+.footer .fotter-form .white-btn{
+    margin-top: 25px;
+}
+.footer .fotter-form .subscribe-success{
+    font-size: 13px;
+    margin-top: 5px;
+    color: #4fa743;
+}
+.footer .green-button{
+    position: absolute;
+    right: -59px;
+    top:115px;
+    transform: rotate(270deg);
+}
+.copy-rights{
+    padding: 20px 100px;
+    background-color: #292A2D;
+}
+.copy-rights .first label{
+    font-size: 16px;
+    color:#fff;
+    line-height: 28px;
+}
+.copy-rights .second a{
+    font-size: 14px;
+    color:#fff;
+    cursor: pointer;
+}
+.copy-rights .second a:hover{
+    color:#4FA743;
+}
+.copy-rights .second ul li{
+    display: inline-block;
+}
+.copy-rights .second ul li:first-child{
+    padding-right: 25px;
+}
+.copy-rights .third{
+    text-align: right;
+}
+.copy-rights .third a:hover svg path{
+    fill:#4FA743;
+}
+.copy-rights .third ul li{
+    display: inline-block;
+    padding-right:30px;
+}
+.copy-rights .third ul li:last-child{
+    padding-right: 0px;
+}
+
+/* Responsive */
+@media screen and (max-width: 1200px){
+    .footer{
+        padding:50px 60px;
+    }
+    .copy-rights{
+        padding:20px 60px;
+    }
+    .footer .fotter-form input{
+        width: 100%;
+    }
+    .footer .green-button{
+        top:62px;
+    }
+}
+@media screen and (max-width: 991px){
+    .footer{
+        padding:50px 30px;
+    }
+    .copy-rights{
+        padding:20px 30px;
+    }
+    .copy-rights .second a{
+        font-size: 13px;
+    }
+    .copy-rights .second ul li:first-child {
+        padding-right: 15px;
+    }
+    .copy-rights .third ul li{
+        padding-right: 15px;
+    }
+    .footer .fotter-link ul li a{
+        font-size: 14px;
+    line-height: 24px;
+    }
+    .footer .fotter-text p{
+        font-size: 14px;
+    line-height: 24px;
+    }
+    .footer .fotter-contact ul li label{
+        font-size: 12px;
+        line-height: 24px;
+        margin-left: 5px;
+    }
+    .footer .fotter-contact ul li.address p{
+        font-size: 12px;
+        line-height: 20px;
+        margin-bottom: 20px;
+        margin-left: 30px;
+    }
+    .footer .fotter-contact ul li.address a{
+        font-size: 14px;
+        margin-left: 30px;
+        padding-bottom: 5px;
+    }
+    .footer .fotter-form h2{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .footer .fotter-form label{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .footer .fotter-form input {
+        width: 90%;
+    }
+    .copy-rights .first label{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 767px){
+    .footer{
+        padding:30px 15px;
+    }
+    .copy-rights{
+        padding:20px 15px;
+    }
+    .copy-rights .third{
+        text-align: left;
+    }
+    .copy-rights .first{
+        margin-bottom: 5px;
+    }
+    .copy-rights .second{
+        margin-bottom: 10px;
+    }
+    .footer .fotter-form input {
+        width: 60%;
+    }
+    .footer .green-button{
+        top:40px;
+        right:15px;
+        transform: initial;
+    }
+    .green-btn{
+        /* width: 130px !important; */
+        font-size: 10px !important;
+    }
+    .footer .fotter-text{
+        margin-bottom: 15px;
+    }
+    .footer .fotter-link{
+        margin-bottom: 20px;
+    }
+    .footer .fotter-contact ul li{
+        margin-bottom: 5px;
+    }
+    .footer .fotter-link  ul li{
+        margin-bottom: 5px;
+    }
+    .footer .fotter-contact {
+        margin-bottom: 20px;
+    }
+
+}

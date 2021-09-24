@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="70px" viewBox="0 0 70 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 16</title>
+    <g id="Technology" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Technology----Driver-app-wallet-Copy" transform="translate(-188.000000, -1974.000000)">
+            <g id="Group-16" transform="translate(188.000000, 1974.000000)">
+                <circle id="Oval" fill="#E5E5E5" opacity="0.400000006" cx="35" cy="35" r="35"></circle>
+                <path d="M40.4598329,34.6443645 L28.9224329,22.5819645 C28.7956487,22.4350873 28.5981918,22.3701122 28.4089629,22.4130025 C28.2197339,22.4558928 28.0695889,22.5996546 28.0185234,22.7868429 C27.9674579,22.9740312 28.0237987,23.174123 28.1650329,23.3071645 L39.3552329,35.0069645 L28.1650329,46.7067645 C27.9824446,46.9182899 27.9975373,47.2357691 28.1993683,47.4290194 C28.4011993,47.6222698 28.7190344,47.6235644 28.9224329,47.4319645 L40.4598329,35.3695645 C40.6536116,35.1666655 40.6536116,34.8472636 40.4598329,34.6443645 Z" id="Path_141" stroke="#282A2D" stroke-width="1.32" fill="#282A2D" fill-rule="nonzero" transform="translate(34.302583, 34.987408) rotate(180.000000) translate(-34.302583, -34.987408) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

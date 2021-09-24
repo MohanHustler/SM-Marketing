@@ -1,0 +1,278 @@
+.career-head h4{
+    color: #003B5B;
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    line-height: 55px;
+}
+.career-we-do .career-head{
+    width: 70%;
+    margin:0px auto;
+    text-align: center;
+    padding-bottom: 70px;
+
+}
+.career .green-btn{
+
+    width: 210px;
+    font-size: 14px;
+}
+.career .s-banner-text label{
+    margin-bottom:60px ;
+}
+
+.career-head span{
+    width: 35px;
+    height: 3px;
+    display: block;
+    background-color: #4FA743;
+    margin:0px auto;
+    text-align: center;
+    margin-top: 20px;
+
+}
+.career-we-do .image-section{
+    position: relative;
+    height: 480px;
+}
+.career-we-do .image-section img{
+    width: 100%;
+    height: 100%;
+}
+.career-we-do .text-section{
+    padding: 100px 80px;
+    background-color: #FAFAFA;
+    height: 480px;
+}
+.career-we-do .text-section .top h4{
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0.13px;
+  line-height: 55px;
+  color: #183B56;
+}
+.career-we-do .text-section .top span{
+    width: 35px;
+    height: 3px;
+    display: block;
+    background-color: #4FA743;
+    margin-top: 10px;
+}
+.career-we-do .text-section .bottom {
+    padding-top: 25px;
+
+}
+.career-we-do.electric .text-section .bottom p:nth-child(1){
+    padding-bottom: 25px;
+}
+.career-we-do .text-section .bottom p{ 
+    color: #515978;
+    font-size: 14px;
+    letter-spacing: 0.16px;
+    line-height: 27px;
+}
+.career-overlay{
+    background-color: rgba(0,0,0,0.2);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0px;
+
+}
+
+.career-head span.left{
+    margin: initial;
+    margin-top: 20px;
+}
+.perks-card-section {
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.perks-card {
+    width: 20%;
+}
+.perks-card span{
+    display: block;
+    padding-bottom: 25px;
+}
+.perks-card h4{
+    color: #183B56;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 30px;
+  padding-bottom: 15px;
+}
+.perks-card p{
+    color: #515978;
+    font-size: 14px;
+    letter-spacing: 0.16px;
+    line-height: 27px;
+}
+.career-head{
+    margin-bottom: 55px;
+}
+.opportunities{
+    background-color: #FAFAFA;
+}
+.opportunities-card-section{
+    /* display: flex; */
+    /* justify-content: space-between; */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.opportunities-card-section .col-md-4{
+    padding: 0px;
+}
+.opportunities-card-section:nth-child(odd){
+    border: none;
+}
+.opportunities-card{
+    text-align: center;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 60px 0px;
+}
+.opportunities-card.border-none{
+    border: none;
+}
+.opportunities-card img{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    margin-bottom: 25px;
+}
+.opportunities-card h4{
+    color: #0A3B58;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.26px;
+    line-height: 33px;
+}
+.text-section.mob-hide{
+    display: block;
+}
+.text-section.mob-show{
+    display: none;
+}
+.opportunity-view-all{
+    display: block;
+    text-align: center;
+    margin: 60px 0px;
+}
+.opportunity-view-all .green-btn{
+    padding: 15px 30px;
+    font-size: 14px;
+}
+/* Responsive */
+
+@media screen and (max-width: 1200px) {
+    .career-we-do .text-section{
+        padding: 60px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .career-we-do .image-section{
+        height: auto;
+    }
+    .career-we-do .text-section{
+        height: auto;
+    }
+    .career-head h4 {
+        font-size: 22px;
+        line-height: 36px;
+    }
+    .career-we-do .career-head{
+        padding-bottom: 40px;
+    }
+    .text-section.mob-show{
+        display: block;
+    }
+    .text-section.mob-hide{
+        display: none;
+    }
+    .opportunities-card h4{
+        font-size: 17px;
+    }
+    .perks-card-section{
+        flex-wrap: wrap;
+    }
+    .perks-card{
+        width: 40%;
+    }
+    .perks-card:nth-child(2){
+        margin-bottom: 20px;
+    }
+    .perks-card:nth-child(1){
+        margin-bottom: 20px;
+    }
+   
+}
+@media screen and (max-width: 767px) {
+    .perks-card-section{
+        flex-direction: column;
+        padding-top: 40px;
+    }
+    .perks-card{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .perks-card:nth-child(4){
+        margin-bottom: 0px;
+    }
+    .career-head span.left{
+        margin-top: 10px;
+    }
+    .career-head h4 {
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .opportunities-card h4 {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .opportunities a{
+        padding: 30px;
+    }
+    .career-we-do .career-head{
+        padding-bottom: 40px;
+        width: 100%;
+    }
+    .career-we-do .image-section{
+        height: auto;
+    }
+    .career-we-do .text-section{
+        padding: 20px;  
+        height: auto; 
+    }
+    .career .green-btn{
+        width: 150px;
+    }
+    .career-head span{
+        margin-top: 10px;
+    }
+    .career-we-do .text-section .top h4{
+        font-size: 19px;
+        line-height: 35px;
+    }
+    .opportunities-card-section{
+        border-bottom: none;
+    }
+    .opportunities-card{
+        border-right: none;
+        padding: 20px 0px;
+    }
+    .opportunities-card img {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 20px;
+    }
+    .opportunity-view-all {
+        margin: 40px 0px;
+    }
+    .s-banner.about-banner.career {
+        height: 60vh;
+    }
+    .s-banner-img img {
+        height: 70%;
+    }
+  }

@@ -1,0 +1,123 @@
+.slick-slide {
+    outline: none!important;
+}
+.news-section .slick-arrow{
+    right: 0px;
+    position: absolute;
+    bottom: 0px;
+    padding:15px 21px;
+    background-color: #F6F6F6;
+    cursor: pointer;
+    z-index: 9;
+}
+.client-section .slick-arrow {
+    background-color: #ffffff;
+    cursor: pointer;
+    z-index: 9;
+    position: absolute;
+    border-radius: 100%;
+    border: 1px solid #292a2d1a;
+    width: 40px;
+    height: 40px;
+    padding: 8px 11px;
+}
+.client-section .slick-arrow.slick-left{
+    left: -10px;
+    top: 65px;
+}
+.client-section .slick-arrow.slick-right{
+    right: -10px;
+    padding: 8px 15px;
+    top: 65px;
+}
+.driver-image-section .slick-arrow{
+    top: 50%;
+    cursor: pointer;
+    z-index: 99;
+    position: absolute;
+}
+.driver-image-section .slick-dots li button:before{
+    font-size: 28px;
+    color:#CCCCCD;
+    opacity: 1;
+}
+.driver-image-section .slick-dots li.slick-active button:before {
+    opacity: 1;
+    color: #00C330;
+}
+.driver-image-section .slick-dots li button:hover:before, .slick-dots li button:focus:before {
+    opacity: 1;
+    color: #00C330;
+
+}
+.driver-image-section .slick-left{
+    left:0px
+}
+.driver-image-section .slick-right{
+    right:0px
+}
+.news-section .slick-arrow img{
+    width:8px;
+}
+.news-section .slick-left{
+    right: 60px;
+}
+.banner-section .slick-arrow{
+    right: 380px;
+    position: absolute;
+    bottom: -50px;
+    cursor: pointer;
+    z-index: 9;
+}
+.banner-section .slick-arrow img{
+    width:9px;
+}
+.banner-section .slick-left{
+    right: 410px;
+}
+
+
+
+/* custom */
+.progressBarContainer div {
+    padding: 0;
+    cursor: pointer;
+    margin-right: 5%;
+    float: left;
+    color: white;
+}
+.progressBarContainer .progressText0.active{
+    color:#4FA743;
+}
+.progressBarContainer .progressText1.active{
+    color:#4FA743;
+}
+.progressBarContainer .progressText2.active{
+    color:#4FA743;
+}
+.progressBarContainer .progressText3.active{
+    color:#4FA743;
+}
+
+.progressBarContainer .progressText4.active{
+    color:#4FA743;
+}
+
+.progressBarContainer div:last-child {
+  margin-right: 0;
+}
+
+.progressBarContainer div span.progressBar .inProgress {
+  background-color: #4FA743;
+  width: 0%;
+  height: 2px;
+}
+
+.clientBarContainer div span.clientBar .clientProgress {
+    background-color: #4FA743;
+    width: 0%;
+    height: 1px;
+  }
+  .client-logo-section span{
+    display:none;
+  }

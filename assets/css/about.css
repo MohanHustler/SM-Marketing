@@ -1,0 +1,983 @@
+/* common wrapper */
+.partnership-slider .slick-left.slick-arrow {
+  display: block;
+  position: absolute;
+  left: -7%;
+  top:0px;
+  cursor: pointer;
+  z-index: 9;
+}
+.partnership-slider .slick-right.slick-arrow {
+  display: block;
+  position: absolute;
+  right: -7%;
+  top:0px;
+  cursor: pointer;
+  z-index: 9;
+
+}
+.about-wrapper {
+  padding: 100px 180px;
+}
+
+.secondary-heading {
+  margin-bottom: 30px;
+}
+
+.secondary-heading h2 {
+  color: #183b56;
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  line-height: 48px;
+}
+
+.secondary-heading label {
+  height: 3px;
+  width: 35px;
+  background-color: #4fa743;
+}
+
+/* about us */
+.about-content {
+  margin-bottom: 100px;
+}
+
+.about-content-text p,
+.partnership-content .p-content p {
+  color: #515978;
+  font-size: 14px;
+  letter-spacing: 0.16px;
+  line-height: 27px;
+}
+
+.about-content-text p {
+  padding-bottom: 15px;
+}
+
+/* partnership */
+.about-content.partnership-wrapper {
+  margin-bottom: 0px;
+}
+
+.partnerships-list {
+  display: block;
+  margin: 60px 0px;
+}
+
+.partnerships-list ul li {
+  display: inline-block;
+  margin-right: 50px;
+  cursor: pointer;
+  padding-bottom: 15px;
+  width: auto !important;
+}
+
+.partnerships-list ul li.active {
+  border-bottom: 2px solid #4fa743;
+}
+
+.partnerships-list ul li:last-child {
+  margin-right: 0px;
+}
+
+.partnerships-list ul li img {
+  filter: grayscale(100%);
+  height: 40px;
+}
+
+.partnerships-list ul li.active img {
+  filter: grayscale(0%);
+}
+
+.partnership-content .p-content p {
+  margin-bottom: 30px;
+}
+
+.partnerships-news-section {
+  margin: 60px -15px 0px -15px;
+  position: relative;
+}
+
+.partnership-card {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.partnership-card .partnership-card-overlay {
+  background-color: rgba(0, 0, 0, 0.54);
+  position: absolute;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  z-index: 9;
+}
+
+.partnership-card .partnership-card-image {
+  width: 100%;
+  height: 277px;
+}
+
+.partnership-card:hover .partnership-card-image img {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition: all ease-in-out 2s;
+  -o-transition: all ease-in-out 2s;
+  transition: all ease-in-out 2s;
+}
+
+.partnership-card .partnership-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  -webkit-transition: all ease-in-out 0.4s;
+  -o-transition: all ease-in-out 0.4s;
+  -webkit-transition: all ease-in-out 0.6s;
+  -o-transition: all ease-in-out 0.6s;
+  transition: all ease-in-out 0.6s;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.partnership-card .partnership-card-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.partnership-card .partnership-card-text {
+  position: absolute;
+  bottom: 10%;
+  padding: 0px 20px;
+  z-index: 9;
+}
+
+.partnership-card .partnership-card-text p {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.14px;
+  line-height: 26px;
+  display: -webkit-box;
+  max-width: 215px;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 10px;
+}
+
+.partnership-card .partnership-card-text span {
+  font-family: 'Raleway';
+  opacity: 0.7;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.15px;
+  line-height: 21px;
+}
+
+/* founders */
+.founder-wrapper {
+  background-color: #f6f6f6;
+  padding: 100px 180px;
+  margin: 0px;
+}
+
+.founder-list {
+  margin-top: 52px;
+}
+
+.founder-list ul li {
+  display: inline-block;
+  opacity: 0.7;
+  color: #0f1a2e;
+  font-size: 22px;
+  letter-spacing: 0.24px;
+  line-height: 33px;
+  margin-right: 60px;
+  cursor: pointer;
+  padding-bottom: 8px;
+}
+
+.founder-list ul li.active {
+  border-bottom: 3px solid #4fa743;
+  opacity: 1;
+}
+
+.founder-content-wrapper {
+  margin-top: 40px;
+  width: 100%;
+}
+
+.founder-img {
+  width: 100%;
+  height: 530px;
+  overflow: hidden;
+}
+
+.founder-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-color: #d8d8d8;
+  filter: grayscale(100%);
+}
+
+.net-map-text p {
+  color: #7d8597;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: left;
+  margin: 10px auto;
+  display: block;
+}
+
+.founder-details {
+  background-color: #ffffff;
+  padding: 40px;
+  height: 530px;
+}
+
+.founder-details h1 {
+  color: #0f1a2e;
+  font-size: 26px;
+  font-weight: 500;
+  letter-spacing: 0.28px;
+  line-height: 39px;
+  margin-bottom: 5px;
+}
+
+.founder-details span {
+  color: #0f1a2e;
+  font-size: 20px;
+  letter-spacing: 0.22px;
+  line-height: 30px;
+  margin-bottom: 12px;
+  display: block;
+}
+
+.founder-details p {
+  color: #515978;
+  font-size: 14px;
+  letter-spacing: 0.19px;
+  line-height: 28px;
+}
+
+.leadership-wrapper {
+  display: flex;
+  margin-top: 100px;
+}
+
+.leadership-profile {
+  width: 65%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.leadership-details {
+  width: 33%;
+  padding: 0px 25px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.profile {
+  width: 23%;
+  display: inline-block;
+  text-align: center;
+  vertical-align: text-top;
+}
+
+.profile:hover .profile-image {
+  border: 2px solid #4fa743;
+}
+
+.profile:nth-child(-n + 8) {
+  margin-bottom: 50px;
+}
+
+.profile-image {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+.profile-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: grayscale(100%);
+}
+
+.profile-text {
+  text-align: center;
+}
+
+.profile-text h2 {
+  color: #2e2839;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.16px;
+  line-height: 24px;
+}
+
+.profile-text span {
+  display: none;
+  color: #515978;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 0.14px;
+  line-height: 18px;
+}
+
+.leader-mobile {
+  display: none;
+}
+
+.leader-web {
+  display: block;
+}
+
+.leadership-detail-notes h2 {
+  color: #2e2839;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.18px;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+.leadership-detail-notes ul li,
+.leadership-detail-notes p,
+.leadership-detail-notes span {
+  list-style: disc;
+  margin-left: 19px;
+  font-size: 14px;
+  letter-spacing: 0.16px;
+  line-height: 27px;
+  color: #515978;
+}
+
+.leadership-detail-notes span {
+  margin-left: 0px;
+}
+
+.leadership-detail-notes p {
+  margin: 15px 0px;
+}
+
+.leadership-detail-notes ul li {
+  margin-bottom: 10px;
+}
+
+.leadership-detail-notes {
+  margin-top: 50px;
+}
+
+/* Slick CUstom */
+.partnerships-news-section .slick-arrow {
+  cursor: pointer;
+}
+
+.partnerships-news-section .slick-left {
+  position: absolute;
+  right: 70px;
+  bottom: -60px;
+}
+
+.partnerships-news-section .slick-right {
+  position: absolute;
+  right: 11px;
+  bottom: -60px;
+}
+
+/* leaderships Mobile */
+.leadership-mobile-wrapper {
+  display: block;
+  position: relative;
+  margin-top: 0px;
+}
+
+.leadership-mobile-profile {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.leadership-mobile-wrapper .leadership-members-content h2 {
+  color: #2e2839;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.18px;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+.leadership-mobile-wrapper .slick-right {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  cursor: pointer;
+}
+
+.leadership-mobile-wrapper .slick-left {
+  display: block;
+  position: absolute;
+  z-index: 9;
+  bottom: 0px;
+  right: 50px;
+  cursor: pointer;
+}
+
+.leadership-mobile-wrapper .slick-dots li button:before {
+  font-size: 28px;
+  color: #cccccd;
+  opacity: 1;
+}
+
+.leadership-mobile-wrapper .slick-dots li button:hover:before,
+.slick-dots li button:focus:before {
+  opacity: 1;
+  color: #00c330;
+}
+
+.leadership-mobile-wrapper .slick-dots li.slick-active button:before {
+  opacity: 1;
+  color: #00c330;
+}
+
+/* Drop Down */
+.location {
+  padding-bottom: 12px;
+}
+
+.location span {
+  font-size: 16px;
+  height: 50px;
+  width: 50px;
+  background-color: #f6f6f6;
+  padding: 10px 18px;
+  position: relative;
+  top: -5px;
+}
+
+.location .btn {
+  padding: 6px 0px 0px;
+}
+
+.location .btn label {
+  font-weight: 700;
+  border-bottom: 1px solid #dcdcdc;
+  border-radius: 0px;
+  /* width: 230px; */
+  margin-right: 10px;
+  text-align: left;
+}
+
+.loaction-dropdown {
+  display: block;
+  padding: 30px 180px;
+  padding-top: 0px;
+}
+
+.dropdown-menu>li :focus,
+.dropdown-menu>li :hover {
+  background-color: transparent;
+}
+
+.location .dropdown-menu li:hover {
+  background-color: rgba(233, 233, 233, 0.6);
+}
+
+.location .dropdown-menu {
+  border-radius: 0px;
+  background-color: #ffffff;
+  box-shadow: 0 10px 20px 5px rgba(0, 0, 0, 0.07);
+  width: 270px;
+  margin-top: 0px;
+  border: none;
+  padding: 0px !important;
+}
+
+.location .dropdown-menu li {
+  padding: 10px 20px !important;
+  color: #003b5b;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  line-height: 25px;
+  cursor: pointer;
+}
+
+.location .dropdown-menu li:hover {
+  background-color: rgba(233, 233, 233, 0.6);
+}
+
+.loaction-dropdown h2 {
+  color: #183b56;
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  line-height: 48px;
+  display: inline-block;
+}
+
+.custom-content {
+  display: inline-block;
+  color: #46a245 !important;
+  font-size: 36px !important;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  line-height: 48px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.dropdown-arrow {
+  display: inline-block;
+}
+
+.btn.active,
+.btn:active {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.btn-group.open .dropdown-toggle {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.milestone-list .line {
+  border-top: 1px solid rgba(0, 0, 0, .2);
+  padding-bottom: 20px;
+}
+
+.milestone-list .list-years {
+  padding: 0px 80px;
+}
+
+.milestone-wrapper .secondary-heading {
+  padding: 0px 180px;
+}
+
+.milestone-wrapper .list-years li {
+  display: inline-block;
+  width: 7%;
+  position: relative;
+}
+
+.milestone-wrapper .list-years li span {
+  position: absolute;
+  top: -31px;
+  left: 50px;
+  cursor: pointer;
+}
+.milestone-list .slick-list {
+  overflow: initial;
+}
+
+.milestone-wrapper .list-years li.active span svg g {
+  fill: #4FA743;
+}
+
+.milestone-wrapper .list-years li.active label {
+  color: #4FA743;
+  font-weight: 500;
+}
+
+.milestone-wrapper .list-years li label {
+  cursor: pointer;
+  color: rgba(0, 0, 0, .6);
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 25px;
+
+}
+
+.milestones-img-section {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.milestones-img .image {
+  width: 780px;
+  height: 480px;
+  margin: 0px auto;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.milestones-img .image p {
+  position: absolute;
+  bottom: 0px;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.16px;
+  line-height: 21px;
+  padding: 20px 15px;
+  text-align: left;
+}
+
+.milestones-img .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.milestones-img .text {
+  width: 70%;
+  margin: 0px auto;
+  padding-bottom: 20px;
+  height: 85px;
+}
+
+.milestones-img .text p {
+  color: #003B5B;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.26px;
+  line-height: 32px;
+  text-align: center;
+}
+
+.milestone-wrapper {
+  padding: 100px 0px;
+  overflow-x: hidden;
+}
+
+.milestone-list .slick-arrow img {
+  width: 40px;
+  cursor: pointer;
+  z-index: 99999;
+}
+
+.milestone-list .slick-left {
+  position: absolute;
+  left: 0px;
+  top: -70px;
+  z-index: 99;
+
+}
+
+.milestone-list .slick-right {
+  position: absolute;
+  right: 0px;
+  top: -70px;
+  z-index: 99;
+
+}
+
+.milestone-list .list-years {
+  text-align: center;
+}
+
+.m-year {
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  width: 80%;
+  padding-bottom: 0px;
+  margin: 0 auto;
+}
+
+.m-year label {
+  color: #4fa743;
+  font-size: 16px;
+}
+
+
+/* .milestone-wrapper .slick-arrow {
+  background-color: #ffffff;
+  cursor: pointer;
+  z-index: 9;
+  position: absolute;
+  border-radius: 100%;
+  border: 1px solid #292a2d1a;
+  width: 40px;
+  height: 40px;
+  padding: 8px 11px;
+} */
+
+
+
+@media screen and (max-width: 1310px) and (min-width: 1250px) {
+  .partnerships-list ul li {
+    margin-right: 30px;
+  }
+}
+
+@media screen and (max-width: 1250px) and (min-width: 991px) {
+
+  .about-wrapper,
+  .founder-wrapper {
+    padding: 100px 70px;
+  }
+
+  .founder-details {
+    padding: 40px;
+  }
+
+  .founder-details p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 991px) and (min-width: 767px) {
+
+  .about-wrapper,
+  .founder-wrapper {
+    padding: 50px 30px;
+  }
+
+  .about-content {
+    margin-bottom: 50px;
+  }
+
+  .partnerships-list {
+    margin: 30px 0px;
+  }
+
+  .partnerships-list ul li {
+    margin-right: 30px;
+  }
+
+  .partnerships-list ul li img {
+    width: 100px;
+  }
+
+  .founder-details {
+    padding: 40px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .milestone-list .list-years {
+    padding: 0px 100px;
+  }
+
+  .milestones-img .text p {
+    font-size: 19px;
+    line-height: 30px;
+  }
+
+  .milestone-wrapper .secondary-heading {
+    padding: 0px 70px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .milestone-wrapper .secondary-heading {
+    padding: 0px 30px;
+  }
+
+  .partnerships-list ul li img {
+    width: 90px;
+    height: 40px;
+    object-fit: contain;
+  }
+
+  .partnerships-news-section {
+    margin: 0px -15px 0px -15px;
+  }
+
+  .milestone-list .list-years {
+    padding: 0px 50px;
+  }
+
+  .milestones-img .image {
+    width: 92%;
+    height: 350px;
+  }
+
+  .milestone-wrapper {
+    padding: 50px 0px;
+  }
+
+  .leader-mobile {
+    display: block;
+    margin: 50px 0px;
+  }
+
+  .leader-web {
+    display: none;
+  }
+
+  .partnership-card {
+    margin-bottom: 20px;
+  }
+
+  .partnership-card .partnership-card-text p {
+    max-width: 100%;
+  }
+
+  .leadership-members-content p {
+    font-size: 14px;
+    letter-spacing: 0.16px;
+    line-height: 23px;
+    color: #515978;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+
+  .leader-mobile .slick-dots li {
+    margin: 0px;
+  }
+
+  .leader-mobile .profile:nth-child(-n + 8) {
+    margin-bottom: 0px;
+  }
+
+  .profile:hover .profile-image {
+    border: none;
+  }
+
+  .milestones-img-section {
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .milestone-wrapper .slick-arrow.slick-left {
+    cursor: pointer;
+    position: absolute;
+    left: 0px;
+    top: 25%;
+   }
+   
+   .milestone-wrapper .slick-arrow.slick-right {
+     cursor: pointer;
+     position: absolute;
+     right: 0px;
+     top: 25%;
+   }
+  .secondary-heading h2 {
+    font-size: 24px;
+    line-height: 38px;
+  }
+
+  .milestones-img .text {
+    height: auto;
+    width: 80%;
+  }
+
+  .about-wrapper,
+  .founder-wrapper {
+    padding: 50px 15px;
+  }
+
+  .loaction-dropdown h2 {
+    font-size: 24px;
+    line-height: 38px;
+    margin-bottom: 0px;
+  }
+
+  .net-map-text {
+    margin-top: 70px;
+  }
+
+  .net-map-text p {
+    font-size: 15px;
+  }
+
+  .location {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 50px;
+  }
+
+  .mapboxgl-map {
+    height: 300px !important;
+  }
+
+  .location span {
+    font-size: 10px;
+    top: 0px;
+  }
+
+  .location .btn label {
+    font-size: 20px;
+  }
+
+  .about-content {
+    margin-bottom: 40px;
+  }
+
+  .partnerships-list {
+    margin: 40px 0px;
+    margin-bottom: 20px;
+  }
+
+  .founder-list ul li {
+    font-size: 14px;
+    margin-right: 20px;
+  }
+
+  .founder-img {
+    height: 300px;
+  }
+
+  .leadership-mobile-profile {
+    margin-top: 0px;
+  }
+
+  .founder-details {
+    padding: 20px;
+    height: auto;
+  }
+
+  .founder-details span {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .loaction-dropdown {
+    padding: 15px;
+  }
+
+  .milestones-img .image p {
+    font-size: 10px;
+    padding: 10px;
+    line-height: 15px;
+  }
+
+  .milestones-img .image {
+    width: 85%;
+    height: 250px;
+  }
+
+  .milestones-img .text p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .milestone-list .list-years {
+    padding: 0px 30px;
+  }
+
+  .milestone-wrapper {
+    padding: 30px 0px;
+  }
+
+  .milestones-img .image svg {
+    width: 250px;
+    height: 250px;
+  }
+
+}
+
+@media screen and (max-width: 370px) {
+  .founder-list ul li {
+    margin-right: 5px;
+  }
+}

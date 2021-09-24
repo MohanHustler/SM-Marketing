@@ -1,0 +1,201 @@
+.form-modal .modal-content{
+    box-shadow: 1px 4px 16px 6px rgba(232,232,232,0.5);
+    padding:50px 40px;
+    border:none;
+    border-radius: 0px;
+}
+.form-modal .modal-close-button {
+    position: absolute;
+    top: 50px;
+    right: 40px;
+}
+.form-modal .head{
+    margin-bottom: 40px;
+}
+.form-modal .head img{
+    width: 148px;
+}
+.form-modal .head-text{
+    margin-bottom: 40px;
+}
+.form-modal .modal-dialog {
+    margin: 30px auto;
+    width: 90%;
+}
+.form-modal .head-text h2{
+    color: #0A3B58;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 0.29px;
+    line-height: 38px;
+}
+.form-modal .sub-head-text h2{
+    color: #0A3B58;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.18px;
+    line-height: 23px;
+}
+.form-modal .sub-head-text{
+    padding-bottom: 25px;
+}
+.form-modal .form-input label{
+   
+        color: #003B5B;
+        font-size: 12px;
+        letter-spacing: 0;
+        line-height: 18px;
+        display: block;
+        margin-bottom: 15px;
+}
+.form-modal .form-input input{
+        width:100%;
+        color: rgba(80, 89, 123, .3);
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 0;
+        line-height: 22px;
+        padding:15px 20px;
+        border: 1px solid #E4E4E4;
+        background-color: #F9F9F9;
+}
+.form-modal .form-input input:focus{
+    outline:none !important;
+}
+.form-modal .form-input-section{
+    display: flex;
+    justify-content: space-between;
+}
+.form-modal .form-input {
+    width: 48%;
+    margin-bottom: 30px;
+}
+.form-modal .submit-btn{
+    padding-top:20px;
+}
+.form-modal .submit-btn .green-btn{
+    border:none !important;
+    width: 165px;
+}
+.form-modal .form-check label{
+    color: #003B5B;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 18px;
+    vertical-align: super;
+    margin-left: 5px;
+}
+.form-modal .past-section {
+    padding-bottom: 50px;
+}
+.form-modal .past-section p{
+    color: #003B5B;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 18px;
+}
+.form-modal .past-section-list{
+    display: flex;
+    justify-content: space-between;
+}
+.form-modal .past-section-last{
+    display: flex;
+}
+.form-modal .past-section-last .form-check{
+    width: 20%;
+}
+
+
+.form-modal .lease-section-list .form-check{
+    margin-bottom: 10px;
+}
+input[type=checkbox], input[type=radio]{
+    margin:0px;
+    height: 23px;
+    width: 23px;
+}
+.form-success{
+    text-align: center;
+    width: 55%;
+    margin: 0px auto;
+}
+.form-success .text{
+    margin-top: 40px;
+}
+.form-success p{
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.24px;
+    line-height: 32px;
+    text-align: center;
+    color: #0A3B58;    
+}
+
+@media screen and (max-width: 1050px) {
+    .form-modal .form-check label{
+        font-size: 11px;
+    }
+    .form-modal .modal-content{
+        padding:50px 20px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .form-modal .past-section .head-top{
+        margin-bottom: 10px;
+    }
+    .form-success{
+        width: 70%;
+    }
+}
+@media screen and (max-width: 767px) {
+    .form-success{
+        width: 100%;
+    }
+    .form-success .text{
+        margin-top: 0px;
+    }
+    .form-success .img svg{
+        width: 100px!important;
+    }
+    .form-success p{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .form-modal .modal-content {
+        padding: 30px 15px;
+    }
+    .form-modal .head-text h2{
+        font-size: 18px;
+    }
+    .form-modal .form-input-section{
+        flex-direction: column;
+    }
+    .form-modal .form-input{
+        width:100%;
+    }
+    .form-modal .past-section-list{
+       flex-direction: column;
+    }
+    .form-modal .head {
+        margin-bottom: 20px;
+    }
+    .form-modal .head-text {
+        margin-bottom: 20px;
+    }
+    .form-modal .past-section {
+        padding-bottom: 30px;
+    }
+    .form-modal .form-check label {
+        font-size: 10px;
+    }
+    .form-modal .past-section-last{
+        flex-direction: column;
+    }
+    .form-modal .past-section-last .form-check{
+        width: 100%;
+    }
+}
+  
+  
+  

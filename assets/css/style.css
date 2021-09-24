@@ -1,0 +1,156 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0px;
+}
+ul {
+  margin: 0px;
+  list-style-type: none;
+  padding-left: 0px;
+}
+.error{
+  color: #cf000f !important;
+}
+#commentForm label.error {
+  display: none;
+}
+.row {
+  margin: 0px;
+}
+label {
+  margin-bottom: 0px;
+  font-weight: 400;
+}
+a {
+  text-decoration: none !important;
+}
+.common-padding {
+  padding: 100px;
+}
+.common-heading {
+  text-align: center;
+}
+.common-heading h2 {
+  color: #282a2d;
+  font-weight: 600;
+  font-size: 35px;
+  padding-bottom: 10px;
+  line-height: 60px;
+}
+.common-heading p {
+  color: #7d8597;
+  font-size: 18px;
+  line-height: 28px;
+  width: 68%;
+  text-align: center;
+  margin: 0px auto;
+}
+.common-heading.inverse h2 {
+  color: #fff;
+}
+.odd {
+  background-color: #f6f6f6;
+}
+.padt0 {
+  padding-top: 0px !important;
+}
+.padb0 {
+  padding-bottom: 0px !important;
+}
+.pad0 {
+  padding: 0px;
+}
+.grid1 {
+  background: linear-gradient(
+        90deg,
+        rgba(125, 133, 151, 0.2) 0.1%,
+        transparent 0.2%
+      )
+      0.2px 0,
+    transparent;
+  background-size: 25%;
+}
+.grid {
+  background: linear-gradient(
+        90deg,
+        rgba(125, 133, 151, 0.2) 0.1%,
+        transparent 0.2%
+      )
+      0.2px 0,
+    transparent;
+  background-size: 25%;
+}
+.common-pad-1 {
+  padding: 100px 0px;
+}
+
+.common-pad-0 {
+  padding: 0px 100px;
+}
+.mob-hide{
+  display: block;
+}
+.mob-show{
+  display: none;
+}
+/* Responsive */
+@media screen and (max-width: 1200px) {
+  .common-padding {
+    padding: 60px;
+  }
+  .common-pad-0 {
+    padding: 0px 60px;
+  }
+  .common-pad-1 {
+    padding: 60px 0px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .common-padding {
+    padding: 30px;
+  }
+  .common-pad-0 {
+    padding: 0px 30px;
+  }
+  .common-pad-1 {
+    padding: 30px 0px;
+  }
+  .common-heading h2 {
+    font-size: 24px;
+    line-height: 40px;
+  }
+  .common-heading p {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .common-padding {
+    padding: 60px 15px;
+  }
+  .common-pad-0 {
+    padding: 0px 15px;
+  }
+  .common-pad-1 {
+    padding: 60px 0px;
+  }
+  .common-heading h2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .common-heading p {
+    width: 100%;
+  }
+  .mob-hide{
+    display: none;
+  }
+  .mob-show{
+    display: block;
+  }
+}

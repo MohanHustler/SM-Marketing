@@ -1,0 +1,97 @@
+.white-btn{
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    color:#000;
+    background-color: #fff;
+    font-weight: 600;
+    line-height: 17px;
+    padding:10px 0px;
+    width: 115px;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid transparent;
+    outline: 0 !important;
+}
+.white-btn:hover{
+    color:#fff;
+    background-color: #4FA743;
+}
+.green-btn{
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    color:#fff;
+    background-color: #4FA743;
+    font-weight: 600;
+    line-height: 17px;
+    padding:15px 15px;
+    /* width: 165px; */
+    text-align: center;
+    display: inline-block;
+}
+.green-btn:hover {
+  color: #fff!important;
+  background-color: #117903;
+}
+.green-btn:active{
+  color: #fff!important;
+}
+.green-btn:focus{
+  color: #fff!important;
+}
+
+/* dropdown css */
+.custom-dropdown-filter{
+  display: none;
+}
+.custom-dropdown-filter .btn {
+    color: #000000;
+    font-size: 18px;
+  }
+  
+  .custom-dropdown-filter .caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-top: 0px;
+    margin-left: 5px !important;
+    vertical-align: middle;
+    border-top: 9px dashed;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+    color: darkblue;
+  }
+  .custom-dropdown-filter .dropdown-menu > li > a {
+    color: #003b5b;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    line-height: 25px;
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    white-space: nowrap;
+  }
+  .custom-dropdown-filter .dropdown-menu {
+    box-shadow: 0 10px 20px 5px rgba(0, 0, 0, 0.07);
+  }
+  .custom-dropdown-filter .dropdown-menu > li > a:focus,
+  .custom-dropdown-filter .dropdown-menu > li > a:hover {
+    background-color: #e9e9e9;
+  }
+  .custom-dropdown-filter .btn:hover {
+    color: #1cc914;
+    background-color: transparent;
+    border-color: transparent;
+  }
+  .custom-dropdown-filter .btn.active,
+  .custom-dropdown-filter .btn:active {
+    background-image: none;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  .custom-dropdown-filter .btn-group.open .dropdown-toggle {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }

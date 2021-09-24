@@ -1,0 +1,694 @@
+.technology-section .technology-head h2 {
+  color: #183b56;
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  line-height: 55px;
+}
+.panel{
+  border:0px solid transparent;
+  box-shadow:  none;
+}
+
+.panel-default>.panel-heading{
+  color:transparent;
+  background-color: transparent;
+  border-color: none;
+}
+.panel-group .panel{
+  border-radius: 0px;
+}
+.panel-heading{
+  padding:0px;
+  border:none;
+  border-radius: none;
+}
+.panel-default {
+  border-color: #fff;
+}
+.technology-section .technology-head span {
+  width: 35px;
+  border: 2px solid #4fa743;
+  display: inline-block;
+}
+.technology-section .technology-head {
+  padding-bottom: 35px;
+}
+.technology-section .technology-content p {
+  color: #515978;
+  font-size: 14px;
+  letter-spacing: 0.16px;
+  line-height: 27px;
+}
+.technology-section .technology-content ul{
+  padding-top: 20px;
+}
+.technology-section .technology-content ul li{
+  padding-bottom: 10px;
+}
+.technology-section .technology-content ul li label{
+    color: #515978;
+    font-size: 14px;
+    letter-spacing: 0.16px;
+    line-height: 27px;
+    margin-left: 15px;
+    vertical-align: middle;
+    width: 78%;
+}
+.technology-section .technology-content ul li span img{
+  width: 40px;
+}
+.technology-section .technology-left {
+  width: 90%;
+}
+.technology-section .technology-right .list {
+  margin-bottom: 20px;
+}
+.technology-section .technology-right .list ul li {
+  display: inline-block;
+  cursor: pointer;
+}
+.technology-section .technology-right .list ul li.active label {
+  color: #003b5b;
+  font-weight: 500;
+  border-bottom: 2px solid #4fa743;
+}
+.technology-section .technology-right .list ul li :nth-child(1) {
+  margin-right: 75px;
+}
+.technology-section {
+  border-radius: 3px;
+  background-color: #ffffff;
+  box-shadow: 0 10px 20px 5px rgba(0, 0, 0, 0.07);
+}
+/* .technology-collapse-section .dropdown-menu-item {
+  border-radius: 3px;
+  background-color: #ffffff;
+  box-shadow: 0 10px 20px 5px rgba(0, 0, 0, 0.07);
+  width: 270px;
+  margin-top: 15px;
+  border: none;
+  padding: 0px !important;
+  display: none;
+  position: absolute;
+}
+.technology-collapse-section .dropdown-menu-item li {
+  display: block !important;
+  padding: 20px 25px !important;
+  color: #003b5b;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  line-height: 25px;
+} */
+.technology-collapse-section .dropdown-menu {
+  border-radius: 3px;
+  background-color: #ffffff;
+  box-shadow: 0 10px 20px 5px rgba(0, 0, 0, 0.07);
+  width: 270px;
+  margin-top: 15px;
+  border: none;
+  padding: 0px !important;
+}
+.technology-collapse-section .dropdown-menu li {
+  display: block !important;
+  padding: 20px 25px !important;
+  color: #003b5b;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  line-height: 25px;
+}
+.driver-section {
+  display: none;
+}
+.driver-image-section .driver-image {
+  width: 250px;
+  height: 480px;
+  margin: 0px auto;
+  position: relative;
+}
+.driver-image-section .driver-image img {
+  width: 100%;
+  height: 100%;
+}
+.technology-collapse-section .dropdown-menu li.battery.color {
+  background-color: rgba(233, 233, 233, 0.6);
+}
+.technology-collapse-section .dropdown-menu li.interchange.color {
+  background-color: rgba(233, 233, 233, 0.6);
+}
+.technology-collapse-section .dropdown-menu li.businterchange.color {
+  background-color: rgba(233, 233, 233, 0.6);
+}
+.technology-collapse-section .dropdown-menu li.busbattery.color {
+  background-color: rgba(233, 233, 233, 0.6);
+}
+.technology-collapse-section .dropdown-menu li.network.color {
+  background-color: rgba(233, 233, 233, 0.6);
+}
+.technology-collapse-section .dropdown-menu li.driver.color {
+  background-color: rgba(233, 233, 233, 0.6);
+}
+.technology-collapse-section .dropdown-menu li.plug.color {
+  background-color: rgba(233, 233, 233, 0.6);
+}
+.technology-collapse-section .dropdown-menu li:hover {
+  background-color: rgba(233, 233, 233, 0.6);
+}
+.technology-section .technology-right .list ul li label {
+  font-size: 16px;
+  letter-spacing: 0.2px;
+  line-height: 25px;
+  text-align: center;
+  color: rgba(0, 59, 91, 0.5);
+  cursor: pointer;
+}
+.technology-section .technology-right .image {
+  height: 350px;
+  position: relative;
+  cursor: pointer;
+}
+.technology-section .technology-right .image .img-overlay {
+  background: linear-gradient(180.46deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.technology-section .technology-right .image img {
+  width: 100%;
+  height: 100%;
+}
+.technology-section .watch-text {
+  position: absolute;
+  bottom: 25px;
+  right: 30px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  z-index: 9;
+}
+.technology-section .watch-text label {
+  color: #fff;
+  font-size: 16px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.technology-collapse-section .collapse-tap {
+  border: 1px solid rgba(231, 231, 231, 0.6);
+  background-color: #fff;
+}
+.technology-collapse-section .collapse-tap ul li:nth-child(1) {
+  padding-left: 0px;
+}
+.technology-collapse-section .collapse-tap ul li:nth-child(3) {
+  padding-right: 0px;
+}
+.technology-collapse-section .collapse-tap ul li {
+  display: inline-block;
+  padding: 0px 60px;
+  cursor: pointer;
+}
+.technology-collapse-section .collapse-tap ul li.active span.dropdown{
+  border-bottom: 2px solid #4FA743;
+  display: inline-block;
+  line-height: 30px;
+}
+.technology-collapse-section .collapse-tap ul li label {
+  color: #003b5b;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  line-height: 25px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.driver-list-section {
+  text-align: center;
+  padding-bottom: 40px;
+}
+.driver-list-section ul li:nth-child(1) {
+  padding-left: 0px;
+}
+.driver-image .tooltip-text.one {
+  display: none;
+}
+.driver-image .tooltip-text.two {
+  display: none;
+}
+.driver-image .tooltip-text.three {
+  display: none;
+}
+.driver-image .tooltip-text.four {
+  display: none;
+}
+.driver-image .tooltip-text.five {
+  display: none;
+}
+.driver-image .tooltip-text.six {
+  display: none;
+}
+.driver-image .tooltip-text h3 {
+  color: #223253;
+  font-family: "Raleway";
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 26px;
+  padding-bottom: 20px;
+}
+.driver-image .tooltip-text p {
+  color: #223253;
+  font-family: "Raleway";
+  font-size: 14px;
+  letter-spacing: 0.16px;
+  line-height: 24px;
+}
+.driver-image .tooltip-text.one {
+  width: 215px;
+  margin-left: -215px;
+  transition-timing-function: ease-in;
+  transition: 2s;
+}
+.driver-image .tooltip-text.four {
+  width: 215px;
+  margin-left: 100px;
+  transition-timing-function: ease-in;
+  transition: 2s;
+}
+
+.driver-image .tooltip-text.five {
+  width: 215px;
+  margin-left: -300px;
+  transition-timing-function: ease-in;
+  transition: 2s;
+}
+.driver-image .tooltip-text.six {
+  width: 215px;
+  margin-left: 50px;
+  transition-timing-function: ease-in;
+  transition: 2s;
+}
+
+
+.circle-ripples.two:hover .tooltip-text.two {
+  display: block;
+}
+.circle-ripples.three:hover .tooltip-text.three {
+  display: block;
+}
+.circle-ripples.four:hover .tooltip-text.four {
+  display: block;
+}
+.circle-ripples.five:hover .tooltip-text.five {
+  display: block;
+}
+.circle-ripples.six:hover .tooltip-text.six {
+  display: block;
+}
+.driver-image .tooltip-text.three {
+  width: 250px;
+ margin-left:50px;
+  transition-timing-function: ease-in;
+  transition: 2s;
+}
+.driver-image .tooltip-text.two {
+  width: 250px;
+ margin-left:50px;
+  transition-timing-function: ease-in;
+  transition: 2s;
+}
+.driver-list-section ul li:nth-child(4) {
+  padding-right: 0px;
+}
+.driver-list-section ul li {
+  display: inline-block;
+  padding: 0px 45px;
+}
+.driver-list-section ul li.active label {
+  border-bottom: 2px solid #4fa743;
+  color: #4fa743;
+}
+.circle-ripples {
+  background-color: #4fa743;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  animation: ripples 0.6s linear infinite;
+  position: absolute;
+  cursor: pointer;
+}
+.circle-ripples.one:hover .tooltip-text.one {
+  display: block;
+}
+.circle-ripples.one {
+  top: 42%;
+  left: 5%;
+}
+.circle-ripples.two {
+  top: 25%;
+  right: 6%;
+}
+.circle-ripples.three {
+  top: 60%;
+  right: 6%;
+}
+.circle-ripples.four {
+  top: 33%;
+  right: 25%;
+}
+.circle-ripples.five {
+  top: 50%;
+  left: 30%;
+}
+.circle-ripples.six {
+  top: 42%;
+  right: 5%;
+}
+@keyframes ripples {
+  0% {
+    box-shadow: 0 0 0 0 rgba(79, 167, 67, 0.3), 0 0 0 2px rgba(79, 167, 67, 0.3),
+      0 0 0 5px rgba(255, 255, 255, 0.3), 0 0 0 10px rgba(79, 167, 67, 0.3);
+  }
+  100% {
+    box-shadow: 0 0 0 2px rgba(79, 167, 67, 0.1),
+      0 0 0 5px rgba(79, 167, 67, 0.3), 0 0 0 10px rgba(79, 167, 67, 0.3),
+      0 0 0 15px rgba(79, 167, 67, 0);
+  }
+}
+.driver-list-section ul li label {
+  color: rgba(10, 59, 88, 0.6);
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  line-height: 25px;
+  text-align: center;
+  cursor: pointer;
+  padding-bottom: 10px;
+}
+.technology-collapse-section .collapse-tap ul {
+  padding: 30px 0px;
+}
+.technology-collapse-section .collapse-tap ul li.active label {
+  color: #4fa743;
+}
+.technology-collapse-section .collapse-tap ul li.active span svg g {
+  stroke: #4fa743;
+}
+.technology-collapse-section .collapse-tap-desc {
+  padding-bottom: 80px;
+  background-color: #f5f5f5;
+}
+.technology-collapse-section .collapse-tap-desc h2 {
+  color: #083b58;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  line-height: 35px;
+  padding: 40px 0px;
+}
+.technology-collapse-section .collapse-tap-desc .collapse-tap-card {
+  background-color: #fff;
+  padding: 70px;
+}
+.technology-collapse-section .collapse-tap-card .left {
+  width: 80%;
+  height: 400px;
+}
+.technology-collapse-section .collapse-tap-card .left.network-90{
+  width: 90%;
+}
+.technology-collapse-section .collapse-tap-card .left img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.technology-collapse-section .collapse-tap-card .left.rotate img{
+      transform: rotate(20deg);
+}
+.hide {
+  display: none;
+}
+.technology-collapse-section .right .list {
+  border-bottom: 1px solid rgba(110, 110, 110, 0.2);
+  cursor: pointer;
+}
+.technology-collapse-section .right .list a {
+  color: #0a3b58;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.25px;
+  line-height: 25px;
+  cursor: pointer;
+  padding: 25px 10px;
+  display: block;
+}
+.technology-collapse-section .right .list a label {
+  padding-right: 10px;
+  vertical-align: text-top;
+}
+.technology-collapse-section .right .list a span {
+  float: right;
+}
+.technology-collapse-section .right .list .list-text p {
+  padding: 0px 25px;
+  padding-bottom: 20px;
+  color: #50597b;
+  font-size: 14px;
+  letter-spacing: 0.16px;
+  line-height: 27px;
+}
+.collapse-tap ul li span a{
+  display: inline-block;
+}
+.collapse-tap-card .app-content .head{
+  padding-bottom: 60px;
+}
+.collapse-tap-card .app-content .download{
+  margin-top:50px;
+  text-align:center;
+}
+.collapse-tap-card .app-content .download ul li span img{
+  width:150px;
+}
+.driver-image-section .slick-dots li{
+  margin:0px;
+}
+.collapse-tap-card .app-content .download ul li{
+  display:inline-block;
+  position: relative;
+}
+.collapse-tap-card .app-content .download ul li label{
+  position: absolute;
+  top:-30px;
+}
+.collapse-tap-card .app-content .head p{
+    color: #515978;
+    font-size: 14px;
+    letter-spacing: 0.16px;
+    line-height: 27px;
+    text-align: center;
+}
+.collapse-tap-card .app-content .partner-content{
+  margin-bottom: 40px;
+}
+.collapse-tap-card .app-content .btn-section{
+  text-align: center;
+}
+.collapse-tap-card .app-content .partner-content p{
+    color: #183B56;
+    font-size: 26px;
+    font-weight: 500;
+    letter-spacing: 0.14px;
+    line-height: 42px;
+    text-align: center;
+}
+#addressList{
+  display: none;
+}
+.technology-collapse-section .collapse-tap ul li ul.dropdown-menu li{
+  margin-bottom: 0px;
+}
+.panel-group .panel+.panel {
+  margin-top: 0px;
+}
+@media screen and (max-width: 1200px) {
+  .technology-section .technology-right .list ul li :nth-child(1) {
+    margin-right: 50px;
+  }
+
+  .technology-collapse-section .right .list a {
+    font-size: 15px;
+  }
+  .technology-collapse-section .collapse-tap-desc .collapse-tap-card{
+    padding:40px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .technology-section .technology-left {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .technology-collapse-section .collapse-tap ul li {
+    padding: 0px 30px;
+    margin-bottom: 35px;
+  }
+  .technology-collapse-section .collapse-tap ul li:last-child{
+    margin-bottom: 0px;
+  }
+  .technology-collapse-section .collapse-tap ul li ul.dropdown-menu li{
+    margin-bottom: 0px;
+  }
+  .technology-collapse-section .collapse-tap-card .left {
+    width: 40%;
+    text-align: center;
+    margin: 0px auto;
+    margin-bottom: 30px;
+  }
+  .technology-collapse-section .collapse-tap-desc {
+    padding-bottom: 40px;
+  }
+  .driver-image-section .slick-left img{
+    width:30px;
+  }
+  .driver-image-section .slick-right img{
+    width:30px;
+  }
+  .driver-image .tooltip-text h3{
+    font-size: 16px;
+    padding-bottom: 0px;
+  }
+  .driver-image .tooltip-text p{
+    font-size: 13px;
+  }
+  .driver-image .tooltip-text.one {
+    margin-left: 20px;
+    width: 180px;
+  
+  }
+  .driver-image .tooltip-text.two {
+    width: 170px;
+    margin-left: -150px;
+  }
+  .driver-image .tooltip-text.three {
+    width: 175px;
+    margin-left: -160px;
+  }
+  .driver-image .tooltip-text.four {
+    width: 130px;
+    margin-left: -75px;
+    margin-top: 20px;
+  }
+  .driver-image .tooltip-text.five {
+    width: 175px;
+    margin-left: -20px;
+    margin-top: 20px;
+  }
+  .driver-image .tooltip-text.six {
+    margin-top: 25px;
+    margin-left: -175px;
+    margin-top: 25px;
+    width: 175px;
+
+  }
+  .driver-image .tooltip-text{
+    background-color:#fff;
+    padding:10px;
+  }
+  .circle-ripples {
+    width: 25px;
+    height: 25px;
+}
+
+}
+@media screen and (max-width: 767px) {
+  .technology-section .technology-head h2 {
+    font-size: 26px;
+    line-height: 30px;
+  }
+  .technology-section .technology-head span {
+    width: 25px;
+  }
+  .technology-collapse-section .collapse-tap ul li {
+    padding: 0px;
+    padding-right: 15px;
+  }
+  .technology-collapse-section .collapse-tap ul li label {
+    font-size: 12px;
+  }
+  .technology-collapse-section .collapse-tap ul {
+    padding: 25px 0px;
+  }
+  .technology-collapse-section .collapse-tap ul li label {
+    margin-right: 5px;
+  }
+  .technology-section .technology-right .list ul li label {
+    font-size: 14px;
+  }
+  .technology-section .technology-right .list ul li :nth-child(1) {
+    margin-right: 10px;
+  }
+  .technology-section .technology-right .image {
+    height: 200px;
+  }
+  .technology-collapse-section .collapse-tap-desc h2 {
+    padding: 20px 0px;
+    font-size: 20px;
+  }
+  .technology-collapse-section .collapse-tap-card .left {
+    width: 100%;
+    height: 300px;
+  }
+  .technology-collapse-section .collapse-tap-desc .collapse-tap-card {
+    padding: 40px 10px;
+  }
+  .technology-collapse-section .right .list a label {
+    padding-right: 5px;
+  }
+  .technology-collapse-section .right .list a {
+    padding: 10px;
+    line-height: 20px;
+    font-size: 11px;
+  }
+  .technology-collapse-section .right .list .list-text p {
+    padding: 0px 10px;
+    font-size: 12px;
+    padding-bottom: 10px;
+    line-height: 20px;
+  }
+  .technology-section .technology-head {
+    padding-bottom: 20px;
+  }
+  .collapse-tap-card .app-content .partner-content p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .driver-list-section ul li{
+    padding:0px 12px;
+  }
+  .driver-list-section ul li label{
+    font-size: 13px;
+  }
+  .driver-list-section{
+    padding-bottom: 20px;
+  }
+  .collapse-tap-card .app-content .head {
+    padding-bottom: 30px;
+}
+.technology-collapse-section .dropdown-menu{
+  width: 175px;
+}
+.technology-collapse-section .dropdown-menu li{
+  font-size: 14px;
+  padding: 10px 15px !important;
+}
+}
+
+@media screen and (max-width: 373px) {
+  .driver-list-section ul li{
+    padding:0px 3px;
+  }
+}
